@@ -4,10 +4,10 @@ import bannerImg from "./images/bannerImg.svg";
 import projectOne from "./images/projectOne.png";
 import projectTwo from "./images/projectTwo.png";
 import projectThree from "./images/projectThree.png";
-// import testimonialOne from "./images/testmonial/testimonialOne.png";
-// import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-// import quote from "./images/testmonial/quote.png";
-// import contactImg from "./images/contact/contactImg.png";
+import testimonialOne from "./images/testimonialOne.png";
+import testimonialTwo from "./images/testimonialTwo.png";
+import quote from "./images/quote.png";
+import contactImg from "./images/contact.png";
 
 export {
   logo,
@@ -15,8 +15,8 @@ export {
   projectOne,
   projectTwo,
   projectThree,
-//   testimonialOne,
-//   testimonialTwo,
-//   quote,
-//   contactImg,
+  testimonialOne,
+  testimonialTwo,
+  quote,
+  contactImg,
 };
