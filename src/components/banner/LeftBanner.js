@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Professional Coder.", "Fontend Developer.", "UI Designer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -25,10 +25,8 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        <p className="text-base font-bodyFont leading-8 tracking-wide">
+        My professional journey encompasses substantial experience in both frontend and backend technologies. I have adeptly worked with frontend tools such as HTML5, CSS3, CSS, MUI, JavaScript and React.Js. 
         </p>
       </div>
      {/* Media */}
