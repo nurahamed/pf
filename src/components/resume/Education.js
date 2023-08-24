@@ -23,7 +23,7 @@ const Education = () => {
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
-            title="Electronics & Tele-communicationn Engineering"
+            title="Electronics & Tele-communication Engineering"
             subTitle="Budge Budge Institute of Technology (2019 - 2021)"
             result="9/10"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
