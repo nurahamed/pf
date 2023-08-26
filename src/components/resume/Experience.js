@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -10,44 +10,50 @@ const Experience = () => {
       className="py-12 font-titleFont flex gap-20"
     >
       <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+        <div className="flex flex-col gap-4 pl-20">
+          <p className="text-sm text-designColor tracking-[4px]">2021 - 2024</p>
+          <h2 className="text-4xl font-bold">Training Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Summer Industrial Training"
+            subTitle=" West Bengal State Electricity Transmission Company Limited. - (Jul 2023 - Aug 2023)"
+            result="Kolkata"
+            des="Overview of the communication Technology."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Winter Industrial Training"
+            subTitle=" Eastern Railways. - (21 Days, Feb 2023)"
+            result="Kanchrapara"
+            des="I had been successfully completed The Role of Trade Electrical -Entry level."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Summer Industrial Training on IoT"
+            subTitle="Ardent Computech Pvt. Ltd. - (Aug 2022 - Sep 2022)"
+            result="Kolkta"
+            des=" I have successfully completed the IoT training and acquired knowledge in IoT technology and Implement the  IoT-Based Fan speed & Relay Controller."
+          />
+          <ResumeCard
+            title="Web Development Bootcamp"
+            subTitle="Udemy - (2020 - 2021)"
+            result="Remote"
+            des="I had been successfully The Complete 2021 Web Development Bootcamp."
           />
         </div>
       </div>
       <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+        <div className="flex flex-col gap-4 pl-20">
+          <p className="text-sm text-designColor tracking-[4px]">2021 - 2024</p>
+          <h2 className="text-4xl font-bold">Internship</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Summer Internship"
+            subTitle="Celebal Technologies Private limited - (Jun 2023 - Aug 2023)"
+            result="Remote"
+            des="Engaged in the enhancement of React projects for the Weather app, skillfully implementing various UI features."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Web Developer and Instructor"
             subTitle="SuperKing College (2010 - 2014)"
             result="CANADA"
@@ -58,7 +64,7 @@ const Experience = () => {
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>
