@@ -11,7 +11,7 @@ const LeftBanner = () => {
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-16">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-4xl font-bold text-white">
@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-8 tracking-wide">
-        My professional journey encompasses substantial experience in both frontend and backend technologies. I have adeptly worked with frontend tools such as HTML5, CSS3, CSS, MUI, JavaScript and React.Js. 
+        Final Year Engineering Undergrad pursuing my B.Tech from Kalyani Government Engineering College. My professional journey encompasses substantial experience in both frontend and backend technologies. I have adeptly worked with frontend tools such as HTML5, CSS, MUI, JavaScript and React.Js. 
         </p>
       </div>
      {/* Media */}
