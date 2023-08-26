@@ -1,21 +1,27 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
+import FooterBottom from './FooterBottom';
 
 const Footer = () => {
+  let facebookUrl = 'https://www.facebook.com/nur.ahamed.3538/';
+  let twitterUrl = 'https://twitter.com/nurahamed62';
+  let inkedinInUrl = ' https://www.linkedin.com/in/nur-ahamed-mondal/';
+
   return (
+    <>
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <FaFacebookF  onClick={() => window.open(facebookUrl, '_blank')}/>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <FaTwitter  onClick={() => window.open(twitterUrl, '_blank')}/>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <FaLinkedinIn onClick={() => window.open(inkedinInUrl, '_blank')}/>
           </span>
         </div>
       </div>
@@ -131,6 +137,9 @@ const Footer = () => {
         </ul>
       </div>
     </div>
+      <FooterBottom/>
+    </>
+
   );
 }
 
