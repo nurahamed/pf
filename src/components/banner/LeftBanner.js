@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-8 tracking-wide">
-        Final Year Engineering Undergrad pursuing my B.Tech from Kalyani Government Engineering College. My professional journey encompasses substantial experience in both frontend and backend technologies. I have adeptly worked with frontend tools such as HTML5, CSS, MUI, JavaScript and React.Js. 
+        Final Year Engineering Undergraduate pursuing my B.Tech from Kalyani Government Engineering College in ECE. My professional journey encompasses substantial experience in both frontend and backend technologies. I have adeptly worked with frontend tools such as HTML5, CSS, MUI, JavaScript and React.Js. 
         </p>
       </div>
      {/* Media */}

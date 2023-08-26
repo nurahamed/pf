@@ -5,7 +5,7 @@ import Contact from './components/contact/Contact';
 // import Footer from './components/footer/Footer';
 import FooterBottom from './components/footer/FooterBottom';
 import Navbar from './components/navbar/Navbar';
-// import Projects from './components/projects/Project';
+import Projects from './components/projects/Project';
 import Resume from './components/resume/Resume';
 // bg-bodyColor
 
@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       <Banner/>
       {/* <Features/> */}
-      {/* <Projects/> */}
+      <Projects/>
       <Resume/>
       <Contact/>
       <FooterBottom/>
