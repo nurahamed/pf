@@ -55,7 +55,7 @@ const Education = () => {
             title="Summer Industrial Training on IoT"
             subTitle="Ardent Computech Pvt.Ltd - (Aug 2022 - Sep 2022)"
             result="Kolkata"
-            des="I had been successfully completed the IoT training and gained knowledge in IoT technology and Implement the  IoT-Based Fan speed & Relay Controller."
+            des="I have successfully completed the IoT training and acquired knowledge in IoT technology and Implement the  IoT-Based Fan speed & Relay Controller."
           />
           <ResumeCard
             title="Summer Industrial Training"
