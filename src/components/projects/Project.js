@@ -5,8 +5,8 @@ import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
 const Projects = () => {
-  let githubLink = "https://www.facebook.com/nur.ahamed.3538/";
-  let projectLive = "https://www.facebook.com/nur.ahamed.3538/";
+  let githubLink = "https://github.com/nurahamed/Banana-talk";
+  let projectLive = "https://englishtominionslanguage.netlify.app/";
 
   return (
     <>
