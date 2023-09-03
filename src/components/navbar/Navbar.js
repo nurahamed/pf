@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { logo } from "../../assets";
 import { Link } from "react-scroll";
 import { navLinksdata } from "../../constants";
 const Navbar = () => {
-    const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
@@ -27,7 +26,6 @@ const Navbar = () => {
               >
                 {title}
               </Link>
-               {/* {title} */}
             </li>
           ))}
         </ul>
