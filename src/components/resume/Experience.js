@@ -37,7 +37,7 @@ const Experience = () => {
             title="Web Development Bootcamp"
             subTitle="Udemy - (2020 - 2021)"
             result="Remote"
-            des="I had been successfully The Complete 2021 Web Development Bootcamp."
+            des="I have successfully completed Web Development Bootcamp and have developed small projects."
           />
         </div>
       </div>
