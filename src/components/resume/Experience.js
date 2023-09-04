@@ -7,12 +7,14 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-        <div className="flex flex-col gap-4 pl-20">
+        <div className="py-6 lgl:py-8 font-titleFont flex flex-col gap-4 pl-20">
           <p className="text-sm text-designColor tracking-[4px]">2021 - 2024</p>
-          <h2 className="text-4xl font-bold">Training Experience</h2>
+          <h2 className="text-4xl md:text-4x1 font-bold">
+            Training Experience
+          </h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
@@ -41,30 +43,35 @@ const Experience = () => {
           />
         </div>
       </div>
+      {/* pard two */}
       <div>
-        <div className="flex flex-col gap-4 pl-20">
-          <p className="text-sm text-designColor tracking-[4px]">2021 - 2024</p>
-          <h2 className="text-4xl font-bold">Internship</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Summer Internship"
-            subTitle="Celebal Technologies Private limited - (Jun 2023 - Aug 2023)"
-            result="Remote"
-            des="Engaged in the enhancement of React projects for the Weather app, skillfully implementing various UI features."
-          />
-          {/* <ResumeCard
+        <div className="py-6">
+          <div className="py-6 lgl:py-8 font-titleFont flex flex-col gap-4 pl-20">
+            <p className="text-sm text-designColor tracking-[4px]">
+              2021 - 2024
+            </p>
+            <h2 className="text-4xl md:text-4xl font-bold">Internship</h2>
+          </div>
+          <div className="mt-14 w-full h-[30%] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+            <ResumeCard
+              title="Summer Internship"
+              subTitle="Celebal Technologies Private limited - (Jun 2023 - Aug 2023)"
+              result="Remote"
+              des="Engaged in the enhancement of React projects for the Weather app, skillfully implementing various UI features."
+            />
+            {/* <ResumeCard
             title="Web Developer and Instructor"
             subTitle="SuperKing College (2010 - 2014)"
             result="CANADA"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
+            />
+            <ResumeCard
             title="School Teacher"
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           /> */}
+          </div>
         </div>
       </div>
     </motion.div>
